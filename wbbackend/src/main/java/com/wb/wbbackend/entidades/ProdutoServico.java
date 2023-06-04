@@ -28,9 +28,6 @@ public class ProdutoServico extends RepresentationModel<ProdutoServico> {
 	private BigDecimal preco;
 	
 	@Column
-	private String genero;
-	
-	@Column
 	private String tipo;
 	
 	@Column

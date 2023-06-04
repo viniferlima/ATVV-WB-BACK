@@ -153,7 +153,6 @@ public class WbbackendApplication {
 			ps1.setQtdConsumidaGeneroMasculino(0);
 			ps1.setQtdConsumidaGeneroFeminino(0);
 			ps1.setQtdConsumidaGeneroOutro(0);
-			ps1.setGenero("Perfumaria");
 			ps1.setTipo("Produto");
 			repositorioProdutoServico.save(ps1);
 			
@@ -164,7 +163,6 @@ public class WbbackendApplication {
 			ps2.setQtdConsumidaGeneroMasculino(0);
 			ps2.setQtdConsumidaGeneroFeminino(0);
 			ps2.setQtdConsumidaGeneroOutro(0);
-			ps2.setGenero("Beleza/Estetica");
 			ps2.setTipo("Servico");
 			repositorioProdutoServico.save(ps2);
 			
@@ -175,7 +173,6 @@ public class WbbackendApplication {
 			ps3.setQtdConsumidaGeneroMasculino(0);
 			ps3.setQtdConsumidaGeneroFeminino(0);
 			ps3.setQtdConsumidaGeneroOutro(0);
-			ps3.setGenero("Perfumaria");
 			ps3.setTipo("Produto");
 			repositorioProdutoServico.save(ps3);
 			
@@ -186,7 +183,6 @@ public class WbbackendApplication {
 			ps4.setQtdConsumidaGeneroMasculino(0);
 			ps4.setQtdConsumidaGeneroFeminino(0);
 			ps4.setQtdConsumidaGeneroOutro(0);
-			ps4.setGenero("Beleza/Estetica");
 			ps4.setTipo("Servico");
 			repositorioProdutoServico.save(ps4);
 

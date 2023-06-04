@@ -20,9 +20,6 @@ public class AtualizadorProdutoServico implements Atualizador<ProdutoServico> {
 		if (!verificadorString.verificar(atualizacao.getNome())) {
 			alvo.setNome(atualizacao.getNome());
 		}
-		if (!verificadorString.verificar(atualizacao.getGenero())) {
-			alvo.setGenero(atualizacao.getGenero());
-		}
 		if (!verificadorString.verificar(atualizacao.getTipo())) {
 			alvo.setTipo(atualizacao.getTipo());
 		}
